@@ -1,0 +1,295 @@
+body {
+    font-family: 'Chelsea Market', cursive;
+    background-color: rgb(222, 238, 222);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.nav-bar {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+    padding: 15px 0 15px 0;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-mid {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+}
+
+.nav-left {
+    padding-left: 20px;
+}
+
+.nav-left img {
+    width: 30px;
+    background: black;
+}
+
+.nav-mid div,
+.nev-left div,
+.nav-right div {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(102, 102, 102);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.search-article {
+    width: 320px;
+}
+
+.search-article input {
+    width: inherit;
+    height: inherit;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.dont-miss {
+    display: flex;
+    justify-self: center;
+    font-size: 34px;
+    box-shadow: black;
+    max-width: fit-content;
+    margin-top: 100px;
+    box-sizing: border-box;
+    background-color: grey;
+    color: honeydew;
+}
+
+.dont-miss h1 {
+    text-align: center;
+}
+
+.articles {
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.left-article {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(116, 110, 110);
+    color: white;
+}
+
+.right-article {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: gray;
+    color: white;
+}
+
+.left-article1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: rgb(121, 99, 99);
+    color: white;
+}
+
+.right-article1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(153, 138, 138);
+    color: white;
+}
+
+.img {
+    width: 85px;
+    height: 85px;
+    background-color: brown;
+    border-radius: 4px;
+    transform: rotate(-20deg);
+    margin-top: 20px;
+    box-shadow: 0px 10px rgba(46, 41, 41, 0.178);
+}
+
+.imgTitle:hover .img {
+    transform: rotate(360deg);
+}
+
+.articles img {
+    width: 17px;
+    height: 17px;
+}
+
+.imgTitle {
+    display: flex;
+}
+
+.atitle {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.left-title,
+.right-title {
+    /* margin-top: 30px; */
+    justify-items: center;
+}
+
+.article-content p {
+    word-spacing: .1em;
+    letter-spacing: .1vh;
+    font-size: 34px;
+    font-weight: 800;
+    font-weight: bold;
+}
+
+.article-content {
+    padding-top: 40px;
+}
+
+.imgTitle,
+.article-content,
+.tags {
+    margin: 0px 90px 0px 45px;
+}
+
+.tags {
+    margin-top: 40px;
+    display: flex;
+}
+
+.tags h5 {
+    padding-left: 20px;
+}
+
+.latest-post {
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 30px;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/2;
+    background-color: rgb(211, 209, 209);
+}
+
+.p2 {
+    grid-column: 2/3;
+    background-color: rgb(167, 164, 164);
+}
+
+.p3 {
+    grid-column: 3/4;
+    background-color: rgb(99, 97, 97);
+}
+
+.p1,
+.p2,
+.p3 :hover {
+    cursor: pointer;
+}
+
+.p1,
+.p2,
+.p3 {
+    padding: 10px 40px 10px 40px;
+}
+
+.author {
+    padding: 20px 0px 20px 0px;
+}
+
+.p-title {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.p-content {
+    font-size: 18px;
+    word-spacing: .1em;
+    letter-spacing: .1vh;
+}
+
+.next-btn {
+    padding-top: 100px;
+    max-width: max-content;
+    max-height: 30px;
+}
+
+.next-btn img {
+    width: 30px;
+    max-height: 20px;
+    margin-left: 1px;
+}
+
+.smashing-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 4/9;
+    margin-top: 30px;
+    height: 600px;
+    background-color: darkgray;
+    border-radius: 6px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.smashing-img {
+    padding-top: 30px;
+    width: 12em;
+}
+
+.smashing-img img {
+    max-width: 12em;
+    background: linear-gradient(0deg, rgb(110, 105, 105) 0, 110, 105, 105 100%);
+}
+
+.smashing-title {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.smashing-title h1:hover {
+    cursor: pointer;
+}
+
+.smashing-para {
+    font-size: 20px;
+    margin: 0 81px 0 81px;
+    text-align: center;
+}
+
+.smashing-btn {
+    padding-top: 30px;
+}
+
+.smashing-btn button {
+    background-color: rgb(88, 84, 84);
+    color: white;
+    font-size: 22px;
+    border-radius: 6px;
+    height: 60px;
+}
+
+.smashing-already {
+    padding-top: 20px;
+}
+
+.dark-content {
+    margin-top: 30px;
+}
