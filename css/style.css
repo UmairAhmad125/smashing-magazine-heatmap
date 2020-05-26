@@ -30,6 +30,10 @@ img {
     justify-content: space-between;
 }
 
+.nav-mid div:hover {
+    cursor: pointer;
+}
+
 .nav-left {
     padding-left: 20px;
 }
@@ -72,6 +76,7 @@ img {
     box-sizing: border-box;
     background-color: grey;
     color: honeydew;
+    margin-left: 140px;
 }
 
 .dont-miss h1 {
@@ -211,6 +216,22 @@ img {
 .p2,
 .p3 {
     padding: 10px 40px 10px 40px;
+}
+
+.pttw h2 a {
+    color: black;
+}
+
+.pttb h2 a {
+    color: honeydew;
+}
+
+.authb h2 a {
+    color: black;
+}
+
+.authw h2 a {
+    color: honeydew;
 }
 
 .author {
@@ -456,4 +477,74 @@ img {
 
 .person-content1 {
     margin-top: -30px;
+}
+
+.tp1 {
+    padding-top: 50px;
+    margin-top: 40px;
+    background-color: rgb(56, 55, 55);
+    color: honeydew;
+    height: 350px;
+}
+
+.jump-to {
+    margin-left: 30px;
+}
+
+.jump-to button {
+    height: 40px;
+    width: 240px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.p-list {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.p-list ul li {
+    padding-top: 10px;
+    display: list-item;
+    list-style: circle;
+}
+
+.smashing-news {
+    background-color: rgb(41, 40, 40);
+    color: honeydew;
+}
+
+.news a {
+    color: honeydew;
+}
+
+.news-btn button {
+    background-color: honeydew;
+    color: gray;
+    font-weight: 800;
+}
+
+.footer {
+    margin-top: 50px;
+    align-items: center;
+    grid-column: 1/9;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(161, 136, 136);
+    padding-top: 30px;
+}
+
+.foot-content {
+    padding: 30px 150px 20px 150px;
+    text-align: center;
+    word-spacing: 1em;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.foot-bottom {
+    padding: 80px 270px 20px 270px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
 }
