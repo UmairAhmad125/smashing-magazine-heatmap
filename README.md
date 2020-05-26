@@ -3,7 +3,7 @@ Design Teardown of smashing magazine (Microverse Project)
 
 ![screenshot](./resources/screenshot.png)
 
-The page shows the design Hierarchy of Smashing Magazine .
+Design Hierarchy of Smashing Magazine .
 
 ## Built With
 
