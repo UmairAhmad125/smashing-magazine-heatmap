@@ -125,12 +125,14 @@ img {
   background-color: rgb(59, 59, 59);
   border-radius: 4px;
   transform: rotate(-20deg);
-  margin-top: 20px;
+  transform-origin: 0 100%;
+  transition: all 0.6s ease;
+  margin-top: 25px;
   box-shadow: 0 10px rgba(46, 41, 41, 0.178);
 }
 
-.imgTitle:hover .img {
-  transform: rotate(360deg);
+.img:hover {
+  transform: rotate(1deg);
 }
 
 .articles img {
@@ -303,7 +305,7 @@ img {
   font-size: 30px;
 }
 
-.smashing-title h1:hover {
+.smashing-title h2:hover {
   cursor: pointer;
 }
 
@@ -426,10 +428,12 @@ img {
   transform: rotate(-20deg);
   margin-left: 50px;
   border-radius: 6px;
+  transform-origin: 0 100%;
+  transition: all 0.6s ease;
 }
 
 .person-pic:hover {
-  transform: rotate(360deg);
+  transform: rotate(1deg);
 }
 
 .person-title {
@@ -548,6 +552,11 @@ img {
   word-spacing: 1em;
   line-height: 40px;
   font-size: 18px;
+}
+
+.foot-content p a {
+  text-decoration: none;
+  color: black;
 }
 
 .foot-bottom {
