@@ -12,7 +12,7 @@ Design Hierarchy of Smashing Magazine .
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/smashing-magazine-heatmap/31c159f578830f79b4bf7022a9eaf36a2313fad6/index.html)
 
 ## Author
 
