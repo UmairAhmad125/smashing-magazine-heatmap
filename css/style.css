@@ -132,7 +132,7 @@ img {
 }
 
 .img:hover {
-  transform: rotate(1deg);
+  transform: rotate(0);
 }
 
 .articles img {
@@ -433,7 +433,7 @@ img {
 }
 
 .person-pic:hover {
-  transform: rotate(1deg);
+  transform: rotate(0);
 }
 
 .person-title {
